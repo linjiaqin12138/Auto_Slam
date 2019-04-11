@@ -1,0 +1,7 @@
+
+S1:[Turtlebot3_Burger] roslaunch auto_explore robot_startup.launch
+---Start Core, Lidar & Gmapping on the robot
+S2:[Personal Computer] rosrun auto_explore mapping.py
+---Start pocessing grid map
+S3:[Personal Computer] rosrun auto_explore mapping.py
+---Start motion control
